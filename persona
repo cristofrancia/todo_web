@@ -1,1 +1,2 @@
 CREATE TABLE `todoweb`.`persona` ( `id` INT NOT NULL , `alias` VARCHAR(25) NOT NULL , `nombre` VARCHAR(25) NOT NULL , `apellido` VARCHAR(25) NOT NULL , `email` VARCHAR(25) NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB; 
+INSERT INTO `persona` (`id`, `alias`, `nombre`, `apellido`, `email`) VALUES ('', 'Pedrito', 'Pedro', 'Lopez', 'pedrolopez@gmail.com') 
